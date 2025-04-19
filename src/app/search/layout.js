@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono, Sixtyfour_Convergence, Inter_Tight, Orbitron, Sacramento, Rob  } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 export const metadata = {
   title: "99X Insights",
