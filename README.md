@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+# [99X Insights](https://dermatology-website-iota.vercel.app/)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+“99X Insights delivers deep research, exclusive case studies, and practical breakdowns of AI, tech, and innovation — in formats Gen Z founders, builders, and learners actually want”
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It’s a knowledge product for builders, investors, students, and innovators who are serious about AI and its real-world impact.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Built by someone who’s learning and building in public, the goal is to create a curated, opinionated AI research engine — one that's fresh, fast, and deeply useful.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## OUR PRODUCTS
 
-## Learn More
+### ⚡ [99X Weekly](https://dermatology-website-iota.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  Deep insights, trending tech, & upcoming breakthroughs
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🧠 [ALPHA Logs](https://dermatology-website-iota.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+  	Case studies of top AI startups, LLMs, tools
+```
 
-## Deploy on Vercel
+### 🎯 [Founder's Notes](https://dermatology-website-iota.vercel.app/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  	Frameworks, founder reflections, startup blueprints
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🚀 [99X Picks](https://dermatology-website-iota.vercel.app/)
+
+```bash
+  	Best videos, papers, tweets, podcast cuts
+```
+
+
+### ✨ [99X Minis](https://dermatology-website-iota.vercel.app/)
+
+```bash
+  	Small AI-powered tools, GPT wrappers, MVPs
+
+```
+
+
+**Client:** NEXT JS
+
+**Server:** Node, Express
+
+**Database:** MongoDB Atlas
+
