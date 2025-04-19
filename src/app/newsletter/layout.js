@@ -1,14 +1,14 @@
 import { Geist, Geist_Mono, Sixtyfour_Convergence, Inter_Tight, Orbitron, Sacramento, Rob  } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 export const metadata = {
-  title: "99X Insights",
-  description: "99X Insights",
-  keywords: "resume, 99X Insights, expo, react, reactjs, reactnative,react native, nodejs, node js",
+  title: "Portfolio",
+  description: "Portfolio",
+  keywords: "resume, portfolio, expo, react, reactjs, reactnative,react native, nodejs, node js",
   authors: [{ name: "DevHiv3" }],
   openGraph: {
-    title: "99X Insights",
-    description: "99X Insights",
+    title: "Portfolio",
+    description: "Portfolio",
     url: "https://tinyurl.com/instagram-clone-expo",
     type: "website",
     images: [
@@ -22,7 +22,7 @@ export const metadata = {
   },
   twitter: {
     card: "https://blue-parental-mackerel-801.mypinata.cloud/ipfs/bafybeidvpeaznv4pcszj2zljhhmnwyridf2lgul73h3yt674u22eskixbm",
-    title: "99X Insights",
+    title: "Portfolio",
     description: "Stay connected with real-time chat and social features.",
     images: ["https://blue-parental-mackerel-801.mypinata.cloud/ipfs/bafybeidvpeaznv4pcszj2zljhhmnwyridf2lgul73h3yt674u22eskixbm"],
   },
