@@ -15,6 +15,8 @@ import { FaBars } from "react-icons/fa";
 function Navbar({ textColor }){
 
   const [isSidebarVisible, setSidebarVisible] = useState(false);
+  const [hoveredMore, setHoveredMore] = useState(false);
+
   const [hovered, setHovered] = useState(false);
 
   const toggleSidebar = () => {
@@ -57,14 +59,43 @@ function Navbar({ textColor }){
             ))}
           </motion.div>
         )}
+
+        {hoveredMore && (
+        <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.2 }}
+           className="absolute left-[46%] -translate-x-1/2  top-full bg-white p-3 rounded-lg shadow-lg flex flex-col w-72"
+           style={{ marginTop: '8px', paddingTop: '8px' }}
+           onMouseEnter={() => setHoveredMore(true)}
+           onMouseLeave={() => setHoveredMore(false)}
+        >
+        <span className="flex items-center text-xs text-neutral-900 p-4 h-4 border-b-2 border-gray-200">MORE STUFF</span>
+        <Link href="/" className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
+          <span className="font-extrabold uppercase">alpha logs</span>
+        </Link>
+        <Link href="/" className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
+          <span className="font-extrabold uppercase">99x weekly</span>
+        </Link>
+        <Link href="/" className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
+          <span className="font-extrabold uppercase">99x picks</span>
+        </Link>
+        <Link href="/" className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
+          <span className="font-extrabold uppercase">founders notes</span>
+        </Link>
+        <Link href="/" className="group flex items-center gap-4 p-4 border-b-2 border-gray-200 text-black hover:text-white hover:bg-black">
+          <span className="font-extrabold uppercase">99x minis</span>
+        </Link>
+      </motion.div>
+      )}
+
+
+
          <Link href="/"> 
           <Image
           src="/99xinsights.png"
             //src="https://www.azuki.com/Azuki%20Logo%20White.svg"
             alt="Instagram Clone Logo"
-            width={80}  // Adjust size
-            height={80} // Adjust size
-          //  className="mr-2 p-2 m-4 rounded-md bg-red-600 hover:scale-105 transition-transform duration-200 ease-in-out"
+            width={20}  // Adjust size
+            height={20} // Adjust size
+            className="mr-2  p-2 m-4 rounded-md  hover:scale-105 transition-transform duration-200 ease-in-out"
           />
           </Link>
 
@@ -73,9 +104,9 @@ function Navbar({ textColor }){
           <Link href="/"><span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">about</span></Link>
           <Link href="/"><span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">blogs</span></Link>
           <Link href="/"><span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">newsletter</span></Link>
-          <Link href="/"><span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">more</span></Link>
+          <span onMouseEnter={() => setHoveredMore(true)} onMouseLeave={() => setHoveredMore(false)} className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 py-20 banner-text">more</span>
           <span onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 py-20 text-center banner-text">socials</span>
-          <span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">buy</span>
+          <span className="hidden sm:block font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text">contact</span>
         </div>
 
         <FaBars onClick={()=> setSidebarVisible(true)} className="m-6 hover:scale-125 transition-transform duration-200 ease-in-out" />

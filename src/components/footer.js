@@ -5,7 +5,105 @@ import { AiTwotoneCheckCircle, AiFillInstagram, AiFillTwitterSquare,  AiFillLink
 
 function Footer(){
   return (
-    <div className="flex flex-col justify-center items-center bg-black w-full py-28">
+    <div className="flex flex-col justify-center items-center bg-neutral-900 w-full py-28">
+
+      <div className="mt-10 flex flex-row justify-evenly items-center flex-wrap w-full">
+
+            {/* ONE COLUMN */}
+            <div className="flex flex-col justify-center items-center space-y-2 flex-wrap p-6 self-start ">
+
+              <h2 className="text-white text-left font-bold uppercase text-3xl mx-4 banner-text">Company</h2>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">company</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl over:text-gray-400 transition-transform duration-200 ease-in-out mx-4 banner-text">About Us</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Our Team</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Blog</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Contact</span>
+                </Link>
+            </div>
+
+
+
+
+            {/* ONE COLUMN */}
+            <div className="flex flex-col justify-center items-center space-y-2 flex-wrap p-6">
+
+              <h2 className="text-white text-left font-bold uppercase text-3xl mx-4 banner-text">practice areas</h2>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">General Counsel</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Funding and Investment</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Mergers and Acquisition</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Intellectual property</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Employment Law</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Business Dispute Services</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Real Estate Law</span>
+                </Link>
+            </div>
+
+
+           {/* ONE COLUMN */}
+            <div className="flex flex-col justify-center items-center space-y-2 flex-wrap self-start p-6">
+
+              <h2 className="text-white text-left font-bold uppercase text-3xl mx-4 banner-text">Company</h2>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">company</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">About Us</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Our Team</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm  font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Blog</span>
+                </Link>
+
+                <Link className="self-start" href="/">
+                  <span className="text-left banner-text text-gray-300 text-sm font-normal hover:shadow-xl hover:text-blue-400 transition-transform duration-200 ease-in-out mx-4 banner-text">Contact</span>
+                </Link>
+            </div>
+
+
+
+        </div>
+
+
       <div className="mt-10">
         <span className="text-white font-bold text-center text-xl uppercase"> MADE WITH NEXT JS</span>
         <div className="flex flex-row justify-evenly items-center w-52 my-4">
